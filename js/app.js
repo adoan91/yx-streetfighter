@@ -51,6 +51,7 @@ $(document).ready(function() {
 		if (e.keyCode == 88) {
 			//pauseCool();
 			$(".ryu-cool").hide();
+			$(".ryu-ready").hide();
 			$(".ryu-throwing").hide();
 			$(".ryu-still").show();
 		}
